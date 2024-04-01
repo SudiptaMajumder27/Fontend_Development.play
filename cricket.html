@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+     content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="cricket.css">
+    <title>Cricket Match</title>
+    <style>r̥r̥
+    </style>
+</head>
+<body>
+    
+    <div class="main_content ">  
+        <img src ="sun1.png" id="icon">
+        <div class="style">
+            <h2>Sports</h2>
+         <div class="sticky-nav" >
+          <div class = "sticky-nav-card ">
+             <div class="card"><img src ="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064049.png" ></div>
+             <h3 class="name">Sacramento River Cats</h3>
+             <div class="sticky-nav_info name">
+                <div class="left"><h5>Total Events</h5> <h3>48 Events</h3></div>
+                <div class="right"><h5>Sport</h5><h3>Baseball</h3></div>
+             </div>
+          </div>
+
+          <div class = "sticky-nav-card">
+            <div class="card"><img src ="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064207.png"></div>
+           <h3 class="name">Las Vegas Aviators</h3>
+             <div class="sticky-nav_info name">
+                <div class="left"><h5>Total Events</h5> <h4>28 Events</h4></div>
+                <div class="right"><h5>Sport</h5> <h4>Baseball</h4></div>
+             </div>
+         </div>
+
+         <div class = "sticky-nav-card" >
+            <div class="card" ><img src ="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064049.png"></div>
+            <h3 class="name">New Jersey Devils</h3>
+             <div class="sticky-nav_info name">
+                <div class="left"><h5>Total Events</h5> <h3>15 Events</h3></div>
+                <div class="right"><h5>Sport</h5> <h3>Ice Hockey</h3></div>
+             </div>
+         </div>
+          
+         <div class = "sticky-nav-card">
+            <div class="card"><img src ="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064207.png"></div>
+            <h3 class="name">Las Vegas Aviators</h3>
+             <div class="sticky-nav_info name">
+                <div class="left"><h5>Total Events</h5> <h3>28 Events</h3></div>
+                <div class="right"><h5>Sport</h5> <h3>Baseball</h3></div>
+             </div>
+         </div>
+
+         <div class = "sticky-nav-card">
+             <div class="card ad_image"><img class="ad_image" src ="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064231.png"></div>
+              <h3 class="name" style="text-align: center;">Advertisement title</h3>
+             <div class="sticky-nav_info_adv name" >
+                <p style="opacity: 0.7" >Lorem, ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+             </div>
+            </div>
+        </div>
+         <button class="btn">See More</button>
+      </div>
+
+        <div class="nav-details" >
+            <h1>Collection Spotlight</h1>
+            <p class="center_para">Discover extraordinary moments with our Spotlight ollection meatickets-exclusive access to premium events for an unforgettable experience.Grab yours today!</p>
+            <div class="many-cards" > 
+                <div class="cards-container" >
+                    <div class="left_icon"><i class="fa-light fa-chevron-left"></i></div>
+                    <div class="card2"><img src="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064406.png"></div>
+                    
+                    <div class="name">
+                    <h3 >Las Vegas Aviators</h3>
+                    <h4>OCT 15 | SUN | 4:30 PM</h4>
+                    <h5>Las Vegas Ballpark, Las Vegas, Nevada</h5>
+                    </div>
+                    <div><button class="btns">Take Flight Collection</button></div>
+                </div>
+
+                <div class="cards-container" >
+                    <div class="card2"><img src="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064423.png"></div>
+                    <div class="name">
+                        <h3>Sacramento River Cats</h3>
+                        <h4>OCT 15 | SUN | 4:30 PM</h4>
+                        <h5>Sutter Health Park, Sacramento</h5>
+                        </div>
+                        <div><button class="btns">Orange Collection</button></div>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card2"><img src="C:\Users\Sudipta Majumder\OneDrive\Desktop\Cricket_project\Screenshot 2024-03-27 064406.png"></div>
+                    <div class="name">
+                        <h3>Las Vegas Aviators</h3>
+                        <h4>OCT 15 | SUN | 4:30 PM</h4>
+                        <h5>Las Vegas Ballpark, Las Vegas, Nevada</h5>
+                        </div>
+                        <div><button class="btns">Take Flight Collection</button></div>
+                </div>
+            </div>
+        </div>
+        <a href ="main_content" class="toggle "></a>
+    </div>
+
+
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src="moon.png";
+            }
+            else{
+                icon.src="sun1.png";
+            }
+        }
+    </script>
+</body>
+</html>
